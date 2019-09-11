@@ -1,0 +1,28 @@
+Bonjour à tous, 
+
+Pour l'organisation voilà ce que je propose, 
+
+Au sujet des reunions, je vous propose une reunion toute les deux semaines, en plus des heures de projets
+Elles peuvent être vocales ou IRL.
+
+Ces reunions auront pour but de déléguer des tâches qui peuvent être des tâches d'innovation, de developpement, ou de design.
+Dans un premier lieu, on sera sur de l'idéalisation. Il n'y aura donc pas forcément de tâches concrete, mise à par de la 
+documentation, et de l'idée.
+
+La délégation des tâches se fera sur Trello : https://trello.com/invite/b/7gytOTcI/dd9cc9b31f34dc04d3a36225a6a2c9d3/twizycontest
+
+Pour tout information sur Trello, n'hésitez pas a regarder TwizyContest/HowToUseTrello.txt
+
+Toute information, idée, tâches réaliser devra figurer sur le git. Pour tout information a propos du partage des données,
+n'hésitez pas a regarder TwizyContest/HowToUseGit.txt
+
+Au niveau de l'utilisation de git pour les tâches :
+
+-A chaque tâches vous sera attribué une "branch" git. Le concept est simple, ne pas interferer sur le travail des autres.
+Donc vous travaillerez sur votre branch, jusqu'a la fin de la tâche ou on la "merge"-ra sur la branche principale :"master"
+
+Ne pushez jamais sur le master pour une tâche !! 
+
+Pushez sur le master uniquement pour de la documentation ou des informations complémentaire en fichier texte.
+
+Merci beaucoup de votre attention :D
