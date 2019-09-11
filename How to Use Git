@@ -1,0 +1,36 @@
+Pour les nouvelles personnes sur git, 
+je fais ce petit tutoriel :
+
+Git est un site où tu peux partager tes fichiers avec d'autres personnes autour d'un projet qu'on appelle repository.
+
+pour envoyer un fichier il suffit de le créer, puis de le commit, puis de le push sur le serveur.
+plusieur propositions s'offre à toi :
+
+  -Tu crée ton fichier sur github qui te proposera les boutons de commit et de push.
+  cette solution n'est pas la meilleure, parce que git n'est pas le meilleur editeur de texte pour coder et que c'est généralement 
+  pas super intuitif.
+  
+  -Tu peux utiliser les commandes de terminal
+    Tu dois au préalable créer un dossier ou cloner un dossier sur ton ordinateur
+    git init
+    
+    Puis quand avant de créer un fichier il faut que tu pull la session la plus récente du repository avec
+    git pull
+    
+    enfin une fois que tu as crée ou modifier un fichier, il faut que tu fasses 
+    git add 
+    pour ajouter les fichiers modifier a la liste des fichiers a commit, 
+    
+    git commit
+    avec un message pour intituler ce que tu as fait,
+    
+    enfin 
+    git push
+    pour pousser ce que tu as fais sur le serveur
+    
+    Les commandes énoncées ici ne sont pas précise, a toi de te documenter.
+   
+   -Tu peux utiliser l'application gitkraken qui est très intuitif et super, elle te permet de gerer totalement ton git facilement
+   tu me le redemanderas à l'oral si jamais il y a beaucoup de chose a dire
+
+Voila !
