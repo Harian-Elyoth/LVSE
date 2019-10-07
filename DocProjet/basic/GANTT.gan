@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="LVSE" company="" webLink="https://github.com/Harian-Elyoth/LVSE" view-date="2019-09-09" view-index="0" gantt-divider-location="285" resource-divider-location="300" version="2.8.10" locale="fr_FR">
+    <description><![CDATA[Badge de geolocalisation 
+]]></description>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="107" order="0"/>
+        <field id="tpd4" name="Date de début" width="34" order="1"/>
+        <field id="tpd5" name="Date de fin" width="31" order="2"/>
+        <field id="tpd13" name="Ressources" width="109" order="3"/>
+        <timeline><![CDATA[0]]></timeline>
+        <option id="color.recent"><![CDATA[#ff0033 #00cc00 #ffff00 #ff9933 #6699ff #0000cc #ccff33 #cccccc #0066cc #cc00ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Trouver une idée" color="#cccccc" meeting="false" start="2019-09-10" duration="5" complete="100" thirdDate="2019-10-07" thirdDate-constraint="0" priority="2" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="Cahier des charges 1.0" color="#ff0033" meeting="false" start="2019-09-17" duration="5" complete="100" thirdDate="2019-08-26" thirdDate-constraint="0" expand="true">
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="Bill of Material 1.0" color="#ccff33" meeting="false" start="2019-09-17" duration="5" complete="100" thirdDate="2019-09-09" thirdDate-constraint="0" expand="true">
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="27" name="Configuration Module GPS" color="#ff9933" meeting="false" start="2019-09-24" duration="13" complete="73" thirdDate="2019-09-09" thirdDate-constraint="0" expand="true"/>
+        <task id="56" name="DESSIN DE LA VIDEO" color="#ff0033" meeting="false" start="2019-09-23" duration="40" complete="27" thirdDate="2019-09-09" thirdDate-constraint="0" expand="true"/>
+        <task id="37" name="Interruption Accelerometre" color="#00cc00" meeting="false" start="2019-10-02" duration="7" complete="68" thirdDate="2019-09-09" thirdDate-constraint="0" expand="true"/>
+        <task id="31" name="Config Microsoft Azure" color="#ffff00" meeting="false" start="2019-09-24" duration="6" complete="100" thirdDate="2019-09-09" thirdDate-constraint="0" expand="true">
+            <depend id="32" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="32" name="Config Power BI" color="#ffff00" meeting="false" start="2019-10-02" duration="7" complete="100" thirdDate="2019-10-02" thirdDate-constraint="0" expand="true"/>
+        <task id="19" name="Diagramme Fast" color="#6699ff" meeting="false" start="2019-09-17" duration="5" complete="100" thirdDate="2019-09-09" thirdDate-constraint="0" expand="true"/>
+        <task id="22" name="Diagramme de Gantt" color="#6699ff" meeting="false" start="2019-09-17" duration="60" complete="24" thirdDate="2019-09-09" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="BOUJON Axel" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="HENNEBELLE Lisa" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="WANG Mingda" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="HARIAN Elyoth" function="Default:1" contacts="" phone=""/>
+        <resource id="4" name="HARIAN WANG" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="HARIAN BOUJON" function="Default:0" contacts="" phone=""/>
+        <resource id="6" name="Tout le monde" function="Default:0" contacts="" phone=""/>
+        <resource id="7" name="HENNEBELLE WANG" function="Default:0" contacts="" phone=""/>
+        <resource id="8" name="BOUJON HARIAN WANG" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="31" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="56" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="19" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="0" resource-id="6" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
