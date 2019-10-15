@@ -1,0 +1,27 @@
+-----TI TPS63050----
+
+Vin entre 2,5V et 5,5V
+Iin entre 630 mA et 1950 mA
+Iout = 0,5A
+
+
+----TI TPS63024-----
+
+Vin entre 2,3V et 5,5V
+Iin entre 2,12A et 3,5A 
+Iout  = 1,5A
+
+
+------LT LTC3564----
+
+Vin entre 2,5V et 5,5V
+Iin(active mode) < 400 uA
+Iin(sleep) < 35 uA
+Iin(shutdown) < 1 uA
+Iout = 1,25A
+
+-----ST LD39050-----
+
+Vin entre 1,5V et 5,5V
+Iin < 100 nA
+Iout = 500 mA
